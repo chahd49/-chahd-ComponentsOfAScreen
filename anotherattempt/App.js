@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'red',
-    alignItems: 'center',
+    alignItems: 'left',
     justifyContent: 'center',
     width: 500
   },
@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width: 500
+    
   },
   footer: {
     flex: 1,
