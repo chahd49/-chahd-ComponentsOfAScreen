@@ -75,7 +75,8 @@ const styles = StyleSheet.create({
   },
 
   text3: {
-    color: 'white'
+    color: 'white',
+    fontSize: 20
   },
 
   text4: {
