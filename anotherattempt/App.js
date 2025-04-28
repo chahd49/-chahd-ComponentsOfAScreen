@@ -5,22 +5,22 @@ export default function App() {
   return (
     <View style={styles.container}>
     <View style={styles.container}>
-      <Text>Navbar</Text>
+      <Text style={styles.text1}>navbar</Text>
       <StatusBar style="auto" />
     </View>
 
     <View style={styles.top}>
-      <Text>Image/Video</Text>
+      <Text style={styles.text2}>Image/Video</Text>
       <StatusBar style="auto" />
     </View>
 
     <View style={styles.section2}>
-      <Text>Section 2</Text>
+      <Text style={styles.text3}>Section 2</Text>
       <StatusBar style="auto" />
     </View>
     
     <View style={styles.footer}>
-      <Text>Footer</Text>
+      <Text style={styles.text4}>Footer</Text>
       <StatusBar style="auto" />
     </View>
     </View>
@@ -60,6 +60,26 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width: 500
+  },
+
+  text1: {
+    color: 'black',
+    fontSize: 20,
+    fontFamily: 'Arial'
+
+  },
+
+  text2: {
+    color: 'orange',
+    fontSize: 30
+  },
+
+  text3: {
+    color: 'white'
+  },
+
+  text4: {
+    color: 'black'
   },
 });
 
